@@ -8,6 +8,6 @@
 - `python DeleteARW.py -p [YourPath]`
 
 ## 注意：
-- 如果 ARW 文件 和 JPG 文件不在一个文件夹，使用 `python RemoveARW.py -p [YourJPGPath] -a [YourARWPath]`
+- 如果 ARW 文件 和 JPG 文件不在一个文件夹，使用 `python DeleteARW.py -p [YourJPGPath] -a [YourARWPath]`
 - 只能根据 JPG 文件来删除多余的 ARW 文件，适用于索尼用户，其他用户请自行在代码中更改文件后缀名
 - 不保证安全性，建议提前备份
