@@ -2,10 +2,10 @@
 摄影师选图脚本，用于删除 .ARW 文件，只留下与 .JPG 对应的 .ARW 格式文件
 
 ## 使用方法：
-- 安装 Python 并选择一个目录
+- 安装 Python 和 Git 并选择一个目录
 - `git clone git@github.com:CubicSalt/RemoveRAW.git`
 - `cd RemoveRAW`
-- `python RemoveARW.py -p [YourPath]`
+- `python DeleteARW.py -p [YourPath]`
 
 ## 注意：
 - 如果 ARW 文件 和 JPG 文件不在一个文件夹，使用 `python RemoveARW.py -p [YourJPGPath] -a [YourARWPath]`
